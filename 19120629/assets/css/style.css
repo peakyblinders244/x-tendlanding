@@ -1,0 +1,197 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(../img/bg\ copy.png);
+}
+
+#main {
+    max-width: 720px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+}
+
+#main>.row,
+#main #content,
+#main .container,
+#main #header {
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+}
+
+#header {
+    background-color: white;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#logo {}
+
+#header #logo {
+    height: 50px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+#header #logo h1,
+#header #logo h1 p {
+    font-size: 20px;
+    line-height: 50px;
+    color: black;
+    display: inline-block;
+    text-transform: uppercase
+}
+
+#header #number {
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+    height: 50px;
+}
+
+#header #number p {
+    font-size: 18px;
+    line-height: 50px;
+    color: black;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.container #con-title {
+    text-transform: inherit;
+    font-size: large;
+}
+
+.justify-content-center img {
+    width: 100%;
+    box-shadow: 0px 4px 5px #ccc;
+    margin-top: 8px;
+}
+
+.container>.justify-content-end {
+    color: rgb(0, 135, 200);
+    height: 94px;
+    margin-top: 30px;
+}
+
+.container>.justify-content-end i {
+    line-height: 94px;
+}
+
+.justify-content-end .btn-con {
+    width: 50%;
+    padding: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 8px 10px rgb(0 0 0 / 20%);
+    color: rgb(0, 66, 99);
+    background-image: linear-gradient(0, rgb(0, 170, 255), rgb(190, 230, 250));
+    transition: all 0.3s ease 0s;
+}
+
+.justify-content-end .btn-con small {
+    text-transform: inherit;
+    font-size: 12px;
+    color: rgb(112, 131, 139);
+}
+
+#content {}
+
+.bd-highlight>p {
+    font-size: 14px;
+}
+
+.col-xs-6 .col-md4 {}
+
+#conmment {}
+
+#comment div>i {
+    color: rgb(0, 135, 200)
+}
+
+#comment .quote {
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+    border-radius: 5px;
+    border-top: 2px solid rgba(0, 0, 0, 0.2);
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.author>p,
+#comment .quote>i {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#comment .author {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#comment .author .arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-right: 15px solid transparent;
+    border-top: 15px solid rgb(235, 235, 235);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#footer {
+    background-color: rgba(0, 0, 0, 0.3);
+    max-width: 720px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#footer .row .col>h5 {
+    font-size: 17px;
+}
+
+#footer .row .col>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer .row .col .sub-img img {
+    width: 20px;
+}
+
+#footer .row .col>p {
+    font-size: 10px;
+}
+
+#end {
+    background-color: rgb(80, 80, 80);
+    max-height: 20px;
+}
+
+#end .d-flex,
+#end .d-flex .p-2 {
+    max-height: 20px;
+}
+
+#end .d-flex {
+    margin-bottom: 0px!important;
+}
+
+#end .d-flex .p-2 p {
+    font-size: 8px;
+    margin-bottom: 0px;
+}
