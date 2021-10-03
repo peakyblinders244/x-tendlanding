@@ -14,7 +14,7 @@ body {
 
 #main {
     max-width: 720px;
-    background-color: white;
+    background-color: rgb(247, 247, 247);
     margin-right: auto;
     margin-left: auto;
     border-radius: 10px;
@@ -29,7 +29,6 @@ body {
 }
 
 #header {
-    background-color: white;
     height: 50px;
     top: 0px;
     left: 0px;
@@ -79,16 +78,19 @@ body {
     margin-top: 8px;
 }
 
+.justify-content-start,
 .container>.justify-content-end {
     color: rgb(0, 135, 200);
     height: 94px;
     margin-top: 30px;
 }
 
+.justify-content-start i,
 .container>.justify-content-end i {
     line-height: 94px;
 }
 
+.justify-content-start .btn-con-st,
 .justify-content-end .btn-con {
     width: 50%;
     padding: 3px;
@@ -102,10 +104,17 @@ body {
     transition: all 0.3s ease 0s;
 }
 
+.justify-content-start .btn-con-st small,
 .justify-content-end .btn-con small {
     text-transform: inherit;
     font-size: 12px;
     color: rgb(112, 131, 139);
+}
+
+.justify-content-end .btn-con,
+.justify-content-start .btn-con-st {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #content {}
@@ -152,11 +161,16 @@ body {
     margin-right: 10px;
 }
 
+.btn-con-st>p {
+    display: block;
+}
+
 #footer {
     background-color: rgba(0, 0, 0, 0.3);
     max-width: 720px;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 57px;
 }
 
 #footer .row .col>h5 {
